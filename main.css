@@ -1,0 +1,92 @@
+html{
+	background: url(../assets/afb/Background1.jpg) no-repeat right top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h4{
+	font-size: 18px;
+	color:white;
+	padding: 0 0 5px 3%;
+	margin: 0 0;
+}
+body{
+	margin: 0 0;
+}
+.title{
+	padding: 0 0 0 5px;
+	font-size: 20px;
+	color:white;
+	width: 30%;
+}
+.header{
+    width: 100%;
+    padding: 7px 0 7px 0;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.searchBar{
+    width: 40%;
+    padding: 10px;
+}
+.searchButon{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 8px 15px 11px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+.container{
+	width: 90%;
+	margin: 0 3% 0 3%;
+}
+.item_row{
+	width: 99.6%;
+	height: auto;
+	padding: 10px 15px 10px 10px;
+	background-color: rgba(217,217,217,0.65);
+	border: 1px solid #C0C0C0;
+}
+.cover{
+	float: right;
+	height: 120px;
+	width: auto;
+}
+
+.pagination{
+	text-align: center;
+    display: block;
+    padding: 2% 0 1% 0;
+}
+.pagination a {
+	color: white;
+	padding: 8px 16px;
+	text-decoration: none;
+	transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;} 
+
+
+ @media screen and (max-width: 800px) {
+	body{ width: 100%; margin: 0 0 0 0; }
+	h2{ font-size: 19px }
+	p{ font-size: 16px }
+	.container{ width: 100%;  margin: 0 0 !important; }
+	.item_row{ padding: 5px 0 !important }
+	.cover{ height: 100px !important; padding: 0 10px; }
+
+}
+
